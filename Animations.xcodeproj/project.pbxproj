@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4846FE8F214C2C310078C788 /* PebbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE8E214C2C310078C788 /* PebbleButton.swift */; };
+		4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE90214C2C4C0078C788 /* Helpers.swift */; };
+		4846FE93214C2CEA0078C788 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE92214C2CEA0078C788 /* SearchField.swift */; };
+		48AD7844214C2E4100B512FB /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AD7843214C2E4100B512FB /* AnimationsViewController.swift */; };
 		48FEC0CB214AD2CD0024D730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */; };
-		48FEC0CD214AD2CD0024D730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC0CC214AD2CD0024D730 /* ViewController.swift */; };
+		48FEC0CD214AD2CD0024D730 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC0CC214AD2CD0024D730 /* SearchViewController.swift */; };
 		48FEC0D0214AD2CD0024D730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FEC0CE214AD2CD0024D730 /* Main.storyboard */; };
 		48FEC0D2214AD2CE0024D730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FEC0D1214AD2CE0024D730 /* Assets.xcassets */; };
 		48FEC0D5214AD2CE0024D730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FEC0D3214AD2CE0024D730 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4846FE8E214C2C310078C788 /* PebbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleButton.swift; sourceTree = "<group>"; };
+		4846FE90214C2C4C0078C788 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		4846FE92214C2CEA0078C788 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		48AD7843214C2E4100B512FB /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
 		48FEC0C7214AD2CD0024D730 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48FEC0CC214AD2CD0024D730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48FEC0CC214AD2CD0024D730 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		48FEC0CF214AD2CD0024D730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48FEC0D1214AD2CE0024D730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FEC0D4214AD2CE0024D730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4846FE8D214C2C000078C788 /* Day-0 */ = {
+			isa = PBXGroup;
+			children = (
+				48FEC0CC214AD2CD0024D730 /* SearchViewController.swift */,
+				4846FE8E214C2C310078C788 /* PebbleButton.swift */,
+				4846FE92214C2CEA0078C788 /* SearchField.swift */,
+			);
+			path = "Day-0";
+			sourceTree = "<group>";
+		};
 		48FEC0BE214AD2CD0024D730 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,10 @@
 		48FEC0C9214AD2CD0024D730 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				4846FE8D214C2C000078C788 /* Day-0 */,
 				48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */,
-				48FEC0CC214AD2CD0024D730 /* ViewController.swift */,
+				48AD7843214C2E4100B512FB /* AnimationsViewController.swift */,
+				4846FE90214C2C4C0078C788 /* Helpers.swift */,
 				48FEC0CE214AD2CD0024D730 /* Main.storyboard */,
 				48FEC0D1214AD2CE0024D730 /* Assets.xcassets */,
 				48FEC0D3214AD2CE0024D730 /* LaunchScreen.storyboard */,
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FEC0CD214AD2CD0024D730 /* ViewController.swift in Sources */,
+				48AD7844214C2E4100B512FB /* AnimationsViewController.swift in Sources */,
+				48FEC0CD214AD2CD0024D730 /* SearchViewController.swift in Sources */,
+				4846FE93214C2CEA0078C788 /* SearchField.swift in Sources */,
+				4846FE8F214C2C310078C788 /* PebbleButton.swift in Sources */,
 				48FEC0CB214AD2CD0024D730 /* AppDelegate.swift in Sources */,
+				4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,15 +304,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2ZQFM2DL86;
+				DEVELOPMENT_TEAM = 33CJ95RW2Y;
 				INFOPLIST_FILE = Animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.Animations;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jainadit27.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,15 +325,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2ZQFM2DL86;
+				DEVELOPMENT_TEAM = 33CJ95RW2Y;
 				INFOPLIST_FILE = Animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.Animations;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jainadit27.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
