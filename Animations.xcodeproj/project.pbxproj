@@ -11,6 +11,7 @@
 		4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE90214C2C4C0078C788 /* Helpers.swift */; };
 		4846FE93214C2CEA0078C788 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE92214C2CEA0078C788 /* SearchField.swift */; };
 		48AD7844214C2E4100B512FB /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AD7843214C2E4100B512FB /* AnimationsViewController.swift */; };
+		48AD7846214C39F800B512FB /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AD7845214C39F800B512FB /* StepperViewController.swift */; };
 		48FEC0CB214AD2CD0024D730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */; };
 		48FEC0CD214AD2CD0024D730 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC0CC214AD2CD0024D730 /* SearchViewController.swift */; };
 		48FEC0D0214AD2CD0024D730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FEC0CE214AD2CD0024D730 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		4846FE90214C2C4C0078C788 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		4846FE92214C2CEA0078C788 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
 		48AD7843214C2E4100B512FB /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
+		48AD7845214C39F800B512FB /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
 		48FEC0C7214AD2CD0024D730 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FEC0CC214AD2CD0024D730 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 			path = "Day-0";
 			sourceTree = "<group>";
 		};
+		48AD7847214C3A0F00B512FB /* Day-1 */ = {
+			isa = PBXGroup;
+			children = (
+				48AD7845214C39F800B512FB /* StepperViewController.swift */,
+			);
+			path = "Day-1";
+			sourceTree = "<group>";
+		};
 		48FEC0BE214AD2CD0024D730 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		48FEC0C9214AD2CD0024D730 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				48AD7847214C3A0F00B512FB /* Day-1 */,
 				4846FE8D214C2C000078C788 /* Day-0 */,
 				48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */,
 				48AD7843214C2E4100B512FB /* AnimationsViewController.swift */,
@@ -159,6 +170,7 @@
 				48FEC0CD214AD2CD0024D730 /* SearchViewController.swift in Sources */,
 				4846FE93214C2CEA0078C788 /* SearchField.swift in Sources */,
 				4846FE8F214C2C310078C788 /* PebbleButton.swift in Sources */,
+				48AD7846214C39F800B512FB /* StepperViewController.swift in Sources */,
 				48FEC0CB214AD2CD0024D730 /* AppDelegate.swift in Sources */,
 				4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */,
 			);

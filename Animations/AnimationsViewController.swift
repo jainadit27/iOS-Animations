@@ -10,7 +10,7 @@ import UIKit
 
 class AnimationsViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let animations = ["Day 0 - Search Bar"]
+    let animations = ["Day 0 - Search Bar", "Day 1 - Stepper"]
     
     let tableView : UITableView = UITableView.init()
     
@@ -47,6 +47,10 @@ class AnimationsViewController : UIViewController, UITableViewDelegate, UITableV
         if(indexPath.row == 0){
             let searchVC : SearchViewController = SearchViewController.init()
             self.navigationController?.pushViewController(searchVC, animated: true)
+        }
+        else if(indexPath.row == 1){
+            let stepperVC : StepperViewController = StepperViewController.init()
+            self.navigationController?.pushViewController(stepperVC, animated: true)
         }
     }
     
