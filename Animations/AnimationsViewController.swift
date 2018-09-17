@@ -10,7 +10,7 @@ import UIKit
 
 class AnimationsViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let animations = ["Day 0 - Search Bar", "Day 1 - Stepper"]
+    let animations = ["Day 0 - Search Bar", "Day 1 - Stepper","Day 2 - Diagonal"]
     
     let tableView : UITableView = UITableView.init()
     
@@ -51,6 +51,10 @@ class AnimationsViewController : UIViewController, UITableViewDelegate, UITableV
         else if(indexPath.row == 1){
             let stepperVC : StepperViewController = StepperViewController.init()
             self.navigationController?.pushViewController(stepperVC, animated: true)
+        }
+        else if(indexPath.row == 2){
+            let diagonalVC : DiagonalViewController = DiagonalViewController.init()
+            self.navigationController?.pushViewController(diagonalVC, animated: true)
         }
     }
     
