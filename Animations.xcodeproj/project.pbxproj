@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48356BA821C6B47A004DE52F /* ToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48356BA721C6B47A004DE52F /* ToggleViewController.swift */; };
 		4846FE8F214C2C310078C788 /* PebbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE8E214C2C310078C788 /* PebbleButton.swift */; };
 		4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE90214C2C4C0078C788 /* Helpers.swift */; };
 		4846FE93214C2CEA0078C788 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846FE92214C2CEA0078C788 /* SearchField.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48356BA721C6B47A004DE52F /* ToggleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewController.swift; sourceTree = "<group>"; };
 		4846FE8E214C2C310078C788 /* PebbleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleButton.swift; sourceTree = "<group>"; };
 		4846FE90214C2C4C0078C788 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		4846FE92214C2CEA0078C788 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48356BA621C6B45D004DE52F /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				48356BA721C6B47A004DE52F /* ToggleViewController.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
 		4846FE8D214C2C000078C788 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		48FEC0C9214AD2CD0024D730 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				48356BA621C6B45D004DE52F /* Toggle */,
 				48AD7847214C3A0F00B512FB /* Stepper */,
 				4846FE8D214C2C000078C788 /* SearchBar */,
 				48FEC0CA214AD2CD0024D730 /* AppDelegate.swift */,
@@ -172,6 +183,7 @@
 				4846FE8F214C2C310078C788 /* PebbleButton.swift in Sources */,
 				48AD7846214C39F800B512FB /* StepperViewController.swift in Sources */,
 				48FEC0CB214AD2CD0024D730 /* AppDelegate.swift in Sources */,
+				48356BA821C6B47A004DE52F /* ToggleViewController.swift in Sources */,
 				4846FE91214C2C4C0078C788 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

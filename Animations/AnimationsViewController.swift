@@ -10,7 +10,7 @@ import UIKit
 
 class AnimationsViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let animations = ["Search Bar", "Stepper"]
+    let animations = ["Search Bar", "Stepper", "Toggle"]
     
     let tableView : UITableView = UITableView.init()
     
@@ -51,6 +51,10 @@ class AnimationsViewController : UIViewController, UITableViewDelegate, UITableV
         else if(indexPath.row == 1){
             let stepperVC : StepperViewController = StepperViewController.init()
             self.navigationController?.pushViewController(stepperVC, animated: true)
+        }
+        else if(indexPath.row == 2){
+            let toggleVC : ToggleViewController = ToggleViewController.init()
+            self.navigationController?.pushViewController(toggleVC, animated: true)
         }
     }
     
