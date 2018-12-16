@@ -7,7 +7,7 @@ Inspiration from https://dribbble.com/shots/4957501-TextField-Interaction-Experi
 
 ![Alt Text](https://github.com/jainadit27/iOS-Animations/blob/master/Screenshots/search_bar.gif)
 
-**Stepper-3D **
+**Stepper-3D**
 
 Inspiration from https://dribbble.com/shots/2657747-Stepper-3D
 
