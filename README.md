@@ -15,6 +15,6 @@ Inspiration from https://dribbble.com/shots/2657747-Stepper-3D
 
 **Toggle**
 
-Inspiration from https://twitter.com/i/status/1074235208109621249
+Inspiration from https://twitter.com/i/status/1074235208109621249. Animation done by Oleg Frolov.
 
 ![Alt Text](https://github.com/jainadit27/iOS-Animations/blob/master/Screenshots/toggle.gif)
